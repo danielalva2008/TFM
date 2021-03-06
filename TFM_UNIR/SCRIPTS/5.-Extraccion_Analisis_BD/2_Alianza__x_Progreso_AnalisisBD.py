@@ -46,10 +46,10 @@ from funciones import eliminarhtml,text_to_wordlist,text_to_wordlist_wc,encoding
 #Descargamos los datos de Twitter
 from tweepy import OAuthHandler
 #Claves del acceso
-consumer_key = 'eMcnfrsrAgghHJCCBdP8QStYj'
-consumer_secret = 'M2FwH7ARB8MK6hq0n8HTrVErWanAsTST0nkmw11VfvuMjn8fel'
-access_token = '587863980-j6aJNJaXotnCuYF5rBZ8myUYF8kCet61E5sgWWHC'
-access_token_secret = 'TbSQ6OVufSk0LH6iiRpSAJBwffggEOR2Ah1ToXRQghRIV'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
